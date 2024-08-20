@@ -1,0 +1,25 @@
+<html>
+<head>
+    <h2>Jency Nadar</h2>
+    <title>Even or Odd Checker</title>
+    <script type="text/javascript">
+        function checkEvenOdd() {
+            // Get the value from the input field
+            var number = document.getElementById("numberInput").value;
+
+            // Check if the number is even or odd
+            if (number % 2 == 0) {
+                document.getElementById("result").innerHTML = number + " is even.";
+            } else {
+                document.getElementById("result").innerHTML = number + " is odd.";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Even or Odd Checker</h2>
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <button onclick="checkEvenOdd()">Check</button>
+    <p id="result"></p>
+</body>
+</html>

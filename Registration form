@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: #0c5192;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center; color: #ffffff;">Registration Form</h2>
+    <form style="background-color: rgb(255, 255, 255); padding: 20px; border-radius: 10px;">
+    <form>
+        <table align="center">
+            <tr>
+                <td><label for="name">Your Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <tr>
+                <td>Your Gender:</td>
+                <td>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Your Hobbies:</td>
+                <td>
+                    <label><input type="checkbox" id="Sleeping" name="hobbies" value="Sleeping"> Sleeping</label><br>
+                    <label><input type="checkbox" id="Eating" name="hobbies" value="Eating"> Eating</label><br>
+                    <label><input type="checkbox" id="Playing" name="hobbies" value="Playing"> Playing</label><br>
+                    <label><input type="checkbox" id="reading" name="hobbies" value="reading"> Reading</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address">Your Address:</label></td>
+                <td><textarea id="address" name="address" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="country">Your Country:</label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="India">India</option>
+                        <option value="Afghanistan">Afghanistan</option>
+                        <option value="Bhutan">Bhutan</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Services Needed:</td>
+                <td><textarea id="services" name="services" rows="3" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

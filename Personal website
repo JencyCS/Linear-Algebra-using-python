@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website - Jency Rajan Nadar</title>
+</head>
+<body>
+
+<div class="header" style="background-color: #333; color: #fff; text-align: center; padding: 1rem 0;">
+    <img src="C:\Users\Rajan\Desktop\Self.jpg" alt="Profile Picture" style="border-radius: 50%; width: 100px; height: 100px; margin-bottom: 10px;">
+    <h1 style="margin: 0; font-size: 3rem;">Jency Rajan Nadar</h1>
+    <p style="margin: 5px 0 0; font-size: 1.2rem; font-style: italic;">Computer Science Student</p>
+</div>
+
+<div class="navigation" style="background-color: #444; text-align: center; padding: 0.5rem 0;">
+    <a href="#home" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">Home</a>
+    <a href="#about" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">About</a>
+    <a href="#friends" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">Friends</a>
+    <a href="#dreams" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">Dreams</a>
+    <a href="#wish-list" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">Wish List</a>
+    <a href="#dont-want-to-do" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">Don’t Want to Do</a>
+    <a href="#unforgettable-moments" style="color: #fff; text-decoration: none; padding: 10px 15px; margin: 0 5px; font-size: 1.1rem;">Unforgettable Moments</a>
+</div>
+
+<div class="skills" id="services" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">Skills</h2>
+    <ul style="color: #666; font-size: 1.1rem; line-height: 1.8;">
+        <li>Programming Languages: Python, Java, C, C++</li>
+        <li>Web Development: HTML</li>
+        <li>Databases: MySQL</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Problem Solving and Debugging</li>
+        <li>Team Collaboration and Communication</li>
+    </ul>
+</div>
+
+<div class="section" id="about" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">About Me</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">Hello! I'm Jency, a passionate second-year computer science student with a strong interest in software development and technology. I have a solid foundation in programming languages like Python, Java, and JavaScript, and I'm enthusiastic about exploring new frameworks and technologies to enhance my skills.</p>
+</div>
+
+<div class="section" id="friends" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">About My Friends</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">I am fortunate to have a wonderful group of friends who support and inspire me. They come from diverse backgrounds and have unique perspectives, which makes our time together enriching and fun. From late-night study sessions to weekend adventures, my friends are an integral part of my life.</p>
+    <ul style="color: #666; font-size: 1.1rem; line-height: 1.8;">
+        <li><b>Lucksha:</b> Little crazy </li>
+        <li> <b> Anisha: </b> My mind reader and supporter.</li>
+        <li><b> Janhavi:</b>My Marathi teacher .</li>
+        <li><b> Priyanka :</b>My beauty adivsor.</li>
+        <li><b>Siddhi:</b> Understanding and Helpful.</li>
+        <li><b>Shubhangi:</b> Always late but Brilliant in Studies.</li> 
+    </ul>
+</div>
+
+<div class="section" id="dreams" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">My Dreams and Aspirations</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">Dreaming big and working hard towards my goals is something I always strive for. Here are a few of my dreams and aspirations:</p>
+    <ul style="color: #666; font-size: 1.1rem; line-height: 1.8;">
+        <li>Become a successful software developer and work on impactful projects.</li>
+        <li>Travel the world .</li>
+        <li>Continuously learn and grow both personally and professionally.</li>
+    </ul>
+</div>
+
+<div class="section" id="wish-list" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">10 Things I Wish in Life</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">Here are ten things I wish for in life that would bring me joy and fulfillment:</p>
+    <ol style="color: #666; font-size: 1.1rem; line-height: 1.8;">
+        <li>Travel the world.</li>
+        <li>Buy a car in my earning.</li>
+        <li>Be a entrepreneur .</li>
+        <li>Pay my own fee for higher studies .</li>
+        <li>Get a job abroad.</li>
+        <li>Have a good health always.</li>
+        <li>Go out for a night drive. </li>
+        <li>Stay physically active and fit throughout my life.</li>
+        <li>Go for a trip with friends.</li>
+        <li>Go on a bike ride.</li>
+    </ol>
+</div>
+
+<div class="section" id="dont-want-to-do" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">10 Things I Don’t Want to Do but Have to Do</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">Even though I don’t enjoy doing these tasks, they are part of life and need to be done:</p>
+    <ol style="color: #666; font-size: 1.1rem; line-height: 1.8;">
+        <li>Wake up early every day.</li>
+        <li>Do household chores.</li>
+        <li>Share things with siblings. </li>
+        <li>Deal with difficult situations calmly.</li>
+        <li>Study subjects that I find less interesting.</li>
+        <li>Stay awake at long nights to study .</li>
+        <li>Attend long lectures.</li>
+        <li>Grooming myself.</li>
+        <li>Eat 3 meals a day.</li>
+        <li>Wake up early on Sundays also.</li>
+    </ol>
+</div>
+
+<div class="section" id="unforgettable-moments" style="background-color: #fff; padding: 20px; margin: 20px auto; max-width: 800px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h2 style="color: #333; border-bottom: 1px solid #ccc; padding-bottom: 10px;">Unforgettable Moments in My Life</h2>
+    <p style="color: #666; font-size: 1.1rem; line-height: 1.8;">Life is full of memorable moments that shape us. Here are a few unforgettable experiences that have left a lasting impact on me:</p>
+    <ul style="color: #666; font-size: 1.1rem; line-height: 1.8;">
+        <li>Scoring higest in 11th even after the teacher telling I will fail in his subject.</li>
+        <li>Been a prefect at school.</li>
+        <li>Got my dream watch on my birthday.</li>
+        <li>My left hand fracture.</li>
+        <li>My birthday celebration by my 12th collegemates .</li>
+        <li>Recieving gold medal in code execution championship. </li>
+        <li>My 1st presentation in college.</li>
+        <li>The day I was admitted in a hospital with very serious condition .</li>
+        <li>The day i travelled alone for the 1st time.</li>
+        <li>Tug days of my school .</li>
+    </ul>
+</div>
+
+</body>
+</html>

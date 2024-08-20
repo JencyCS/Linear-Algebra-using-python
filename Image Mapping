@@ -1,0 +1,23 @@
+#Image Mapping: 
+/*Jency Nadar*/ 
+<html> 
+<body> 
+<h2>Image Maps</h2> 
+<p>Click on the Glass of water </p> 
+<img src="C:\Users\mvlui\Downloads\images.jpg" 
+alt="Workplace" usemap="#workmap" width="400" 
+height="379"> 
+<map name="workmap"> 
+  <area shape="rect" coords="34,44,145,350" alt="Computer" 
+href="glass.html"> 
+</map> 
+</body> 
+</html> 
+ 
+# Insert image : 
+<html> 
+<body> 
+<img src="C:\Users\mvlui\Downloads\water.jpg" alt="Trulli" 
+width="500" height="333"> 
+</body> 
+</html> 
